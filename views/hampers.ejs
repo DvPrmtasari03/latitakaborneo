@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Home - LATITAKA BORNEO</title>
+</head>
+<body>
+
+    <!-- Include navbar -->
+    <header>
+        <div class="wrapper">
+            <!-- Include navbar.ejs here -->
+            <%- include('../includes/navbar.ejs') %>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <section id="Hampers">
+            <h2>HAMPERS</h2>
+            <p>Pemesanan Hampers Bisa sesuai Request dari para latiers yaa.</p>
+
+            <div class="gambar-container">
+                <img src="img/14.jpg" alt="Gambar hampers 1">
+                <img src="img/15.jpg" alt="Gambar hampers 2">
+            </div>
+            <!-- Content specific to Hampers page -->
+        </section>
+    </div>
+
+    <!-- Include footer -->
+    <%- include('../includes/footer') %>
+
+    <!-- Ikon Virtual Assistant -->
+    <div class="chat-icon">
+        <a href="https://web.telegram.org/k/#@LatitakaBorneoBot" target="_blank">
+            <img src="/img/virtual_assistant_logo.png" alt="Virtual Assistant">
+        </a>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

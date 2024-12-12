@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Home - LATITAKA BORNEO</title>
+</head>
+<body>
+    <!-- Include navbar -->
+    <header>
+        <div class="wrapper">
+            <!-- Include navbar.ejs here -->
+            <%- include('../includes/navbar.ejs') %>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <section id="Home">
+            <img src="/img/logo latitaka_page-0001.jpg" alt="Logo latitaka">
+            <div class="kolom">
+                <p class="deskripsi">Selamat Datang Di Latitaka Borneo</p>
+                <h2>Obat Herbal Bajakah</h2>
+                <p>Mari mulai sadar akan pentingnya kesehatan Anda bersama Latitaka Borneo racikan herbal
+                     Bajakah asli Dayak Kalimantan. Produk bisa disesuaikan dengan kondisi kesehatan Anda.</p>
+                <p><a href="/order" class="tbl-pink">Order Disini</a></p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Include footer -->
+    <%- include('../includes/footer') %>
+
+    <!-- Ikon Virtual Assistant -->
+    <div class="chat-icon">
+        <a href="https://web.telegram.org/k/#@LatitakaBorneoBot" target="_blank">
+            <img src="/img/virtual_assistant_logo.png" alt="Virtual Assistant">
+        </a>
+    </div>
+
+    <script src="/js/script.js"></script>
+
+</body>
+</html>
